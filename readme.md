@@ -4,7 +4,7 @@ This is a moodle block that draws a menu.
 
 The menu has a Home link at the top which links to the course homepage.
 
-Then it shows each section in a list.
+Then it shows each section in a list. It checks that items are visible to the user.
 
 At the bottom it will list each activity in Section 0.
 
