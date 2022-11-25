@@ -14,6 +14,10 @@ It adds a classname to the active link (sections or activities).
 
 You can customise the block additional classname to help you target styling.
 
+### Setup
+
+Install the block in the usual manner (`/blocks/sectionmenu`) and then add an instance to the course. Next, edit the block settings and add a classname to help identify the block using theme CSS, maybe a name if you like, and then set its visibility to be 'any page' (which will be any page in the course, including activities).
+
 ### Styling
 
 Each item is just a regular P tag with a A tag inside it.
