@@ -38,7 +38,7 @@ function block_sectionmenu_get_zeros($course, $page) {
     if (!empty($modinfo->sections[0])) {
         foreach ($modinfo->sections[0] as $modnumber) {
             $mod = $modinfo->cms[$modnumber];
-            if (!$mod->uservisible || !$mod->is_visible_on_course_page()) {
+            if (!$mod->uservisible) { // don't need this: || !$mod->is_visible_on_course_page()) {
                 continue;
             }
             $result[] = [
